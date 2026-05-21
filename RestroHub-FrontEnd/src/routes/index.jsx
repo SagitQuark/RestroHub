@@ -11,6 +11,7 @@ import ProtectedRoute from './ProtectedRoute';
 import Landing from '../pages/public/Landing';
 import Login from '../pages/public/Login';
 import Register from '../pages/public/Register';
+import ForgotPassword from '../pages/public/ForgotPassword';
 
 // Customer Pages
 import RestaurantMenu from '../pages/customer/RestaurantMenu';
@@ -34,6 +35,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Landing />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
       </Route>
 
       {/* ========== CUSTOMER ROUTES ========== */}
